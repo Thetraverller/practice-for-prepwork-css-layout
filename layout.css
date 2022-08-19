@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(134, 249, 255, 0.386);
+
+    }
+    .comments {
+        display: grid;
+        grid-template: 5px /  auto auto;
+     }
+
+ form {
+     text-align: center;
+ }
+
+legend {
+    text-align: left;
+}
+
+.checksA {
+    display: grid;
+  grid-template: auto / auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+.end {
+    display: grid;
+    grid-template: 50px / 120px 120px;
+    grid-gap: 10px;
+    padding 10px;
+}
+
+.stat_dat {
+    display: grid;
+    grid-template:30px / 120px 120px ;
+    grid-gap: 10px;
+    padding 10px;
+}
+
+
+
+ /*how to target an id
+
+/* label {
+
+}
+
+legend{
+    color:blueviolet;
+}
+
+    div {
+        color:rgba(6, 0, 62, 0.562);
+    }
+    button:hover {
+        background-color: rgba(0, 255, 238, 0.4);
+      }
+.blink:hover {
+
+    color:blue ;
+    font-size: 20px;
+} */

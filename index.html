@@ -7,62 +7,82 @@
         <form action="/form-handling-url" method="post">
             <fieldset>
             <legend>Add user</legend>
-        
-            <div>
-                <label for="firstName">First name</label>
+
+            <div class="blink">
+                <label for="firstName">First name:</label>
+                <br>
                 <input type="text" id="firstName" name="first_name">
             </div>
-        
-            <div>
-                <label for="lastName">Last name</label>
+
+            <div class="blink">
+                <label for="lastName">Last name:</label>
+                <br>
                 <input type="text" id="lastName" name="last_name">
             </div>
-        
-            <div>
-                <label for="email">Email</label>
+
+
+            <div class="blink">
+                <label for="email">Email:</label>
+                <br>
                 <input type="email" id="email" name="email_address">
             </div>
-        
-            <div>
-                <label for="role">Status</label>
+
+         <div class="stat_dat">
+            <div class="blink">
+                <label for="role">Status:</label>
                 <select id="role" name="user_role_name">
                 <option value="student">Student</option>
                 <option value="instructor">Instructor</option>
                 <option value="guest">Guest</option>
                 </select>
             </div>
-            
+
+
+            <div class="blink">
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date">
+            </div>
+        </div>
             <div>
-                <p>Choose your favorite Web language:</p>
+                <p class="blink">Choose your favorite Web language:</p>
+              <div class="checksA">
+                <div class="checks">
                 <input type="radio" id="html" name="fav_language" value="HTML">
-                <label for="html">HTML</label><br>
-                <input type="radio" id="css" name="fav_language" value="CSS">
-                <label for="css">CSS</label><br>
+                <label class="item1" for="html">HTML</label> </div>
+
+                <div class="checks">
+                <input  type="radio" id="css" name="fav_language" value="CSS">
+                <label class="item2" for="css">CSS</label> </div>
+
+                <div class="checks">
                 <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-                <label for="javascript">JavaScript</label>
+                <label class="item3" for="javascript">JavaScript</label>
+                </div>
+              </div>
             </div>
 
-            <div>
-                <label for="comments">Comments</label>
+            <div class="blink">
+                <label for="comments" class="comments">Comments:</label> <br>
                 <textarea id="comments" name="comments"></textarea>
             </div>
 
-            <div>
-                <label for="date">Date</label>
-                <input type="date" id="date" name="date">
+
+
+            <div class="end">
+                <div class="item1">
+                <input type="checkbox" id="signup" name="signup" value="Signup">
+                <label class="blink" for="signup">Sign up for news letter</label>
+                </div>
+                <div class="item2">
+                <input type="checkbox" id="terms" name="terms" value="Terms">
+                <label class="blink" for="terms"> Agree to terms and conditions</label>
+                </div>
             </div>
 
-            <div>
-                <input type="checkbox" id="signup" name="signup" value="Signup">
-                <label for="signup">Sign up for news letter</label><br>
-                <input type="checkbox" id="terms" name="terms" value="Terms">
-                <label for="terms"> Agree to terms and conditions</label>
-            </div>
-        
-            <div>
+            <div class="blink">
                 <button type="submit">Submit</button>
             </div>
-        
+
             </fieldset>
         </form>
     </body>
